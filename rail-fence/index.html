@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rail Fence Cipher</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  </head>
+  <body>
+    <div id="container">
+      <h1>Rail Fence Cipher</h1>
+      <div id="input-section">
+        <textarea id="input-text" placeholder="Enter text here"></textarea>
+        <div>Rails: <input type="number" id="rails-input" value="3"></div>
+        <div id="button-section">
+          <button id="encode-button">Encode</button>
+          <button id="decode-button">Decode</button>
+        </div>
+      </div>
+      <div id="output-section">
+        <textarea id="output-text" placeholder="Result will appear here" readonly></textarea>
+      </div>
+      <div id="back-button-section">
+        <button id="back-button">Back</button>
+      </div>
+      <button id="theme-switch-button" title="Toggle theme">
+        <i class="fas fa-lightbulb"></i>
+      </button>
+    </div>
+    <script src="rail-fence.js"></script>
+    <script src="/theme.js"></script>
+  </body>
+</html>

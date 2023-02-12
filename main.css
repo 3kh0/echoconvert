@@ -1,0 +1,91 @@
+/* Light theme */
+body {
+  background-color: #F2F2F2;
+  color: #333333;
+  font-family: Arial, sans-serif;
+}
+
+#container {
+  width: 550px;
+  margin: 50px auto;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px #BBBBBB;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#tool-list {
+  text-align: center;
+  margin-top: 30px;
+}
+
+a {
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #007FFF;
+  color: #FFFFFF;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+a:hover {
+  background-color: #0060BF;
+}
+
+#theme-switch-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #007FFF;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#theme-switch-button i {
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+/* Dark theme */
+.dark-theme {
+  background-color: #333333;
+}
+.dark-theme body {
+  background-color: #333333;
+  color: #F2F2F2;
+}
+
+.dark-theme #container {
+  color: #F2F2F2;
+  background-color: #444444;
+  box-shadow: 0 0 10px #222222;
+}
+
+.dark-theme a {
+  background-color: #0060BF;
+}
+
+.dark-theme a:hover {
+  background-color: #007FFF;
+}
+
+.dark-theme #theme-switch-button {
+  background-color: #0060BF;
+}
+
+.dark-theme #theme-switch-button i {
+  color: #F2F2F2;
+}
