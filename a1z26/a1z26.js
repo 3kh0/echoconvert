@@ -4,7 +4,7 @@ const encodeButton = document.querySelector("#encode-button");
 const decodeButton = document.querySelector("#decode-button");
 const backButton = document.getElementById("back-button");
 
-const a1z26Encoder = (text) => {
+const a1z26Encoder = (text.toLowerCase()) => {
   let output = "";
   for (let i = 0; i < text.length; i++) {
     let charCode = text.charCodeAt(i);
