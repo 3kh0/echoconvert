@@ -30,7 +30,7 @@ const a1z26Decoder = (text) => {
 };
 
 encodeButton.addEventListener("click", function () {
-  let input = inputText.value;
+  let input = inputText.value.toLowerCase();
   let output = a1z26Encoder(input);
   outputText.value = output;
 });
