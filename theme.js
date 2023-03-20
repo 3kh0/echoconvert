@@ -32,3 +32,11 @@ themeSwitchButton.addEventListener('click', () => {
 });
 
 initializeTheme();
+
+var script = document.createElement("script");
+script.async = true;
+script.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5756835229788588";
+script.crossOrigin = "anonymous";
+
+var head = document.getElementsByTagName("head")[0];
+head.appendChild(script);
