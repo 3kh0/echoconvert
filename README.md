@@ -25,6 +25,7 @@ Pre-deployed demo: [echoconvert.vercel.app](https://echoconvert.vercel.app/)
 - Reverse text
 - Morse code
 - Spelling alphabet
+- Character Count
 
 This website is a one-stop-shop for text data conversion needs. Whether it is encoding, decoding, or just text manipulation, this site has you covered. Try it out today!
 
